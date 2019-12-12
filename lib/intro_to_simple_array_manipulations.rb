@@ -89,7 +89,7 @@ def using_push( colors_in_the_rainbow,next_color)
         
         def using_delete_at(famous_robots,x)
           #famous_robots = ["Johnny 5", "R2D2", "Robocop"]
-         deleted_robot = famous_robots.delete_at(2) 
+         deleted_robot = famous_robots.delete_at(x) 
          return deleted_robot
        end
        
