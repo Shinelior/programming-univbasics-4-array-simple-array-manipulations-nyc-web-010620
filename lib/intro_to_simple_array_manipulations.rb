@@ -81,8 +81,8 @@ def using_push( colors_in_the_rainbow,next_color)
        end
        def using_delete(array,element )
          #instructors = ["Josh", "Steven", "Sophie", "Steven", "Amanda", "Steven"]
-        binding.pry
-        array.delete(s)   
+        #binding.pry
+        array.delete(element)   
            
           
         end
