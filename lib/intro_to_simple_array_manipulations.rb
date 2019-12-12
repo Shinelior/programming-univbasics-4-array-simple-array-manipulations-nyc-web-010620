@@ -79,10 +79,10 @@ def using_push( colors_in_the_rainbow,next_color)
              flat_array=nstruments.flatten
          return flat_array   
        end
-       def using_delete(instructors, s)
+       def using_delete(array,element )
          #instructors = ["Josh", "Steven", "Sophie", "Steven", "Amanda", "Steven"]
         binding.pry
-        instructors.delete(s)   
+        array.delete(s)   
            
           
         end
